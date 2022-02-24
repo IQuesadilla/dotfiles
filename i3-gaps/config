@@ -59,7 +59,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 #exec --no-startup-id nm-applet
 
 # Enable compton as a compositor
-exec --no-startup-id compton
+exec --no-startup-id picom
 
 # Run krunner daemon as a dmenu replacement
 exec --no-startup-id krunner --daemon
@@ -68,7 +68,7 @@ exec --no-startup-id krunner --daemon
 exec --no-startup-id nitrogen --restore
 
 # KSuperKey makes the start menu open when the super key is pressed
-exec --no-startup-id snap run ksuperkey
+#exec --no-startup-id snap run ksuperkey
 
 # Use pactl to adjust volume in PulseAudio.
 #set $refresh_i3status killall -SIGUSR1 i3status
