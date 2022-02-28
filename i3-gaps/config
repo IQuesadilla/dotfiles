@@ -58,7 +58,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 #exec --no-startup-id nm-applet
 
-# Enable compton as a compositor
+# Enable picom as a compositor
 exec --no-startup-id picom
 
 # Run krunner daemon as a dmenu replacement
