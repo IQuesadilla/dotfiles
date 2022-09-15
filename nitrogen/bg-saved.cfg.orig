@@ -1,0 +1,8 @@
+[:0.0]
+<<<<<<< HEAD
+file=/home/iquezada/.config/dotfiles/backgrounds/background.png
+=======
+file=/home/iquezada/.config/dotfiles/backgrounds/fish.jpg
+>>>>>>> 0e285c052e720211d792cc32ddef9b4ca5d54e60
+mode=5
+bgcolor=#000000
