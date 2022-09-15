@@ -19,8 +19,8 @@ font pango:monospace 8
 default_border none
 default_floating_border none
 
-gaps inner 0
-gaps outer 0
+# gaps inner 0
+# gaps outer 0
 
 # Plasma compatibility improvements
 for_window [window_role="pop-up"] floating enable
