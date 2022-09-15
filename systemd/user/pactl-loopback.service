@@ -1,0 +1,11 @@
+[Unit]
+Description=PulseAudio loop-back module
+After=pulseaudio.socket
+Requires=pulseaudio.socket
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/pactl load-module module-loopback latency_msec=1
+
+[Install]
+WantedBy=default.target
