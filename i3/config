@@ -67,7 +67,7 @@ exec --no-startup-id picom
 exec --no-startup-id krunner --daemon
 
 # Nitrogen should handle the background
-exec --no-startup-id nitrogen --restore
+exec --no-startup-id nitrogen --restore --force-setter=xwindows
 
 # KSuperKey makes the start menu open when the super key is pressed
 #exec --no-startup-id snap run ksuperkey
@@ -89,7 +89,7 @@ bindsym XF86AudioMicMute exec --no-startup-id qdbus org.kde.kglobalaccel /compon
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec --no-startup-id flatpak run org.wezfurlong.wezterm
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -104,6 +104,9 @@ bindsym $mod+Shift+q kill
 
 # Rather than using dmenu, using krunner as a replacement
 bindsym $mod+d exec --no-startup-id krunner
+
+# Take a screenshot with flameshot
+bindsym $mod+p exec --no-startup-id flatpak run org.flameshot.Flameshot gui
 
 # change focus
 bindsym $mod+j focus left
