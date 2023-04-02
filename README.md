@@ -95,7 +95,8 @@ ln -s ~/.config/dotfiles/nitrogen ~/.config/nitrogen
 - Panel -> Edit Panel -> Show Desktop -> Remove
 
 ### **Firefox Preferences:**
-Before doing anything, open Flatseal and enable "Allow user files"
+Before starting Firefox, open Flatseal and under "Firefox" enable "Allow user files" <br />
+Also, go to "All Applications" and enable "GPU Acceleration"
 - General -> Digital Rights Management -> Play DRM content -> Enable
 - General -> Language and Appearance -> Website Appearance -> Dark
 - Home -> Homepage and new windows -> Custom URLs -> “quezadas.us”
