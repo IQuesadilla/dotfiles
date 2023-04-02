@@ -1,1 +1,7 @@
 
+[submodule "zshplugin/zsh-syntax-highlighting"]
+	path = zshplugin/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "zshplugin/zsh-autosuggestions"]
+	path = zshplugin/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
