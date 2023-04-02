@@ -17,6 +17,11 @@ Note: If dunst installs itself, remove it
 ```bash
 sudo flatpak remote-add --if-not-exists flathub [https://flathub.org/repo/flathub.flatpakrepo](https://flathub.org/repo/flathub.flatpakrepo "https://flathub.org/repo/flathub.flatpakrepo")
 ```
+Using:
+```
+flatpak install <package name>
+```
+These are my recommended packages:
 ```
 org.mozilla.firefox
 org.videolan.VLC
@@ -38,16 +43,12 @@ io.github.shiftey.Desktop
 org.gnome.gitlab.cheywood.Iotas
 ```
 ### **From github:**
-In ~/.config
-[https://github.com/IQuesadilla/dotfiles.git](https://github.com/IQuesadilla/dotfiles.git "https://github.com/IQuesadilla/dotfiles.git")
-[https://github.com/zsh-users/zsh-syntax-highlighting.git](https://github.com/zsh-users/zsh-syntax-highlighting.git "https://github.com/zsh-users/zsh-syntax-highlighting.git")
-
-In ~/.oh-my-zsh/custom/plugins
-[https://github.com/zsh-users/zsh-autosuggestions.git](https://github.com/zsh-users/zsh-autosuggestions.git "https://github.com/zsh-users/zsh-autosuggestions.git")
-
-Under releases, download the newest release
-[https://github.com/yshui/picom/releases](https://github.com/yshui/picom/releases "https://github.com/yshui/picom/releases")
-Follow the README instructions (might need to also install libxcb-xinerama0-dev)
+```bash
+git clone --recurse-submodules https://github.com/IQuesadilla/dotfiles.git
+```
+Under releases, download the newest release <br />
+[https://github.com/yshui/picom/releases](https://github.com/yshui/picom/releases "https://github.com/yshui/picom/releases") <br />
+Follow the README instructions to build and install manually (might need to also install libxcb-xinerama0-dev)
 
 ### **Modifications:**
 ```bash
@@ -60,6 +61,8 @@ sudo add-apt-repository contrib
 sudo add-apt-repository non-free
 ```
 ```bash
+rm -r ~/.oh-my-zsh/custom/plugins
+ln -s ~/.config/dotfiles/zshplugins ~/.oh-my-zsh/custom/plugins
 ln -s ~/.config/dotfiles/zsh/zshrc ~/.zshrc
 ln -s ~/.config/dotfiles/i3 ~/.config/i3
 ln -s ~/.config/dotfiles/htop ~/.config/htop
