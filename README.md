@@ -60,7 +60,7 @@ sudo add-apt-repository contrib
 sudo add-apt-repository non-free
 ```
 ```bash
-ln -s ~/.config/dotfiles/zsh/zshrc ~/.zshrc #(only after omz install)
+ln -s ~/.config/dotfiles/zsh/zshrc ~/.zshrc
 ln -s ~/.config/dotfiles/i3 ~/.config/i3
 ln -s ~/.config/dotfiles/htop ~/.config/htop
 ln -s ~/.config/dotfiles/picom ~/.config/picom
