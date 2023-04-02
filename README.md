@@ -15,7 +15,7 @@ Note: If dunst installs itself, remove it
 
 ### **From flatpak:**
 ```bash
-sudo flatpak remote-add --if-not-exists flathub [https://flathub.org/repo/flathub.flatpakrepo](https://flathub.org/repo/flathub.flatpakrepo "https://flathub.org/repo/flathub.flatpakrepo")
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 Using:
 ```
