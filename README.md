@@ -62,7 +62,7 @@ sudo add-apt-repository non-free
 ```
 ```bash
 rm -r ~/.oh-my-zsh/custom/plugins
-ln -s ~/.config/dotfiles/zshplugins ~/.oh-my-zsh/custom/plugins
+ln -s ~/.config/dotfiles/zshplugin ~/.oh-my-zsh/custom/plugins
 ln -s ~/.config/dotfiles/zsh/zshrc ~/.zshrc
 ln -s ~/.config/dotfiles/i3 ~/.config/i3
 ln -s ~/.config/dotfiles/htop ~/.config/htop
