@@ -1,0 +1,6 @@
+[submodule "zsh-syntax-highlighting"]
+	path = zshplugins/zsh-syntax-highlighting
+	url = https://github.com/leethomason/tinyxml2.git
+[submodule "zsh-autosuggestions"]
+	path = zshplugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
