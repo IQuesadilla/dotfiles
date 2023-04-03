@@ -41,6 +41,7 @@ com.github.xournalpp.xournalpp
 org.shotcut.Shotcut
 io.github.shiftey.Desktop
 org.gnome.gitlab.cheywood.Iotas
+org.texstudio.TeXstudio
 ```
 ### **From github:**
 ```bash
